@@ -1,0 +1,14 @@
+namespace = tutmod
+country_event = {
+	id = tutmod.1
+	hide_window = yes
+	fire_only_once = yes
+	trigger = {
+		NOT = {
+			has_global_flag = tutmod_installed
+		}
+	}
+	immediate = {
+		set_global_flag = tutmod_installed
+	}
+}

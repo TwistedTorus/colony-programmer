@@ -1,0 +1,5 @@
+on_monthly_pulse = {
+    events = {
+        my_colony_automation.1
+    }
+}

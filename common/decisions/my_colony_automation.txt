@@ -1,0 +1,18 @@
+decision_enable_mining_automation = {
+    owned_planets_only = yes
+    enactment_time = 0
+    potential = {
+        NOT = { 
+            has_modifier = my_mining_automation
+        }
+    }
+    effect = {
+        add_modifier = {
+            modifier = my_mining_automation
+            days = -1
+        }
+    }
+     ai_weight = {
+        weight = 0
+     }
+}
