@@ -1,6 +1,3 @@
 my_mining_automation = {
-    icon =  {
-        category = planet
-        file = "gfx/interface/icons/modifiers/mod_planetary_build_speed.dds"
-    }
+    icon =  "gfx/interface/icons/planet_modifiers/pm_alien_propaganda.dds"
 }

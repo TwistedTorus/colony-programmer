@@ -1,6 +1,7 @@
 decision_enable_mining_automation = {
     owned_planets_only = yes
     enactment_time = 0
+    icon = decision_baol_life_seed
     potential = {
         NOT = { 
             has_modifier = my_mining_automation
